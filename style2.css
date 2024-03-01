@@ -1,0 +1,72 @@
+.background{
+  width: 100%;
+  min-height: 100vh;
+  background-color:#8E9AAF ; 
+  padding: 10px; 
+}
+
+.todo-app{
+  width: 100%;
+  max-width: 700px;
+  background: #fff; 
+  margin: 100px auto 20px;
+  padding: 30px 30px 70px;
+  border-radius: 20px;
+  font-family: Cambria;
+}
+
+#title {
+  font-family: Cambria; 
+}
+
+.button {
+  background-color:#ED6B86;
+  color: white;
+  border-radius: 5px;
+}
+
+.collapsible {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none; 
+}
+
+.bin-icon {
+  font-size: 15px;
+  margin-left: 10px;
+  display: none; /* hide the icon by default */
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* show bin icon when hovering over item */
+li:hover .bin-icon {
+  display: inline;
+}
+
+/* add some style for the checkmark icon */
+.check-icon {
+  font-size: 15px;
+  margin-left: 10px;
+  display: none; /* hide the icon by default */
+}
+
+/* show the icon when hovering over the list item */
+li:hover .check-icon {
+  display: inline;
+}
+
+/* add a class for the strikethrough effect */
+.strikethrough {
+  text-decoration-skip-ink: auto;
+  text-decoration: line-through;
+  color: #818AA3;
+}
+
+.kind{
+  color: rgb(164, 25, 108);
+}

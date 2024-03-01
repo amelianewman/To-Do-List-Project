@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+</head>
+
+<body>
+<div class= "background">
+<div class= "todo-app"> 
+<h1 id="title">To Do List📝</h1>
+
+<button type= "button" class="collapsible button"> Instructions 👇</button>
+<div class="hidden">
+  <h3> Instructions: </h3>
+  <p> 1. Add new tasks by writing in the ✏️add a new task box and clicking the add button </p> 
+  <p> (empty tasks won't work! if you don't type but click add, an alert ⚠️ will prompt you to input a task)</p>
+  <p> 2. To delete a task, hover over the task and click on the bin emoji 🗑️</p>
+  <p> 3. To mark a task as completed, hover over the task and click the check emoji ✅</p>
+  <p> (you can unstrike a completed task by re-clicking on the check emoji✅ )</p>
+  <p> Have fun and stay productive! </p>
+</div> <br> 
+
+<button type= "button" class="collapsible button"> Random Act of Kindness 💖</button>
+<div class="hidden">
+  <h3> Random Act of Kindness Generator: </h3>
+  <p>Research shows that helping others can be good for our mental health. It reduces stress, improves our emotional well-being and even benefits our physical health.</p>
+  <p>So why not add one of these suggested random acts of kindness to your to do list!</p>
+  <button type= "button" class="button" onclick="generateOptions()">Click here</button>
+    <div class= "kind"> 
+      <ul id="kindness-list"> </ul>
+    </div>
+</div> <br>  
+
+<input type="text" name="new task" id="new-task" placeholder="✏️Add a new task">
+<input type="button" value="Add" id="add-btn" class="button">
+
+<div class="task-list">
+  <ul id="task-ul"></ul>
+</div>
+</body> 
+ 
+<script src="main2.js"></script>
+</html>
